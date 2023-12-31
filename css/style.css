@@ -1,0 +1,99 @@
+body{
+  background-color: #1F0F37;
+  background-image: linear-gradient(to top, rgb(22, 18, 63), #1c0e36, #190b2d, #150928, rgb(10, 0, 23));background-repeat: no-repeat;
+  margin: 0;
+  padding: 0 0 400px 0; 
+  text-align: center;
+  font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+  color: rgb(218, 210, 218);
+}
+
+header{
+    margin: 1.2em 2em;
+    margin-top: 20%;
+    border-radius: .2em;
+
+}
+
+.bloco{
+    background-color: #1F0F37;
+    background-image: linear-gradient(to top, rgb(27, 22, 70), #1F0F37, #1F0F37, #1F0F37, #1F0F37, rgb(10, 0, 23));
+    margin: 0 1.5em;
+    padding: 1.5em 0;
+    border: 3px solid rgba(218, 210, 218, 0.43);
+    border-radius: .2em;
+}
+
+.final{
+    margin: 2em;
+    margin-top: 10px;
+    border: 0;
+    background-color: transparent;
+    background-image: none;
+}
+
+.opcoes{
+    margin-top: 10px;
+    display: inline-flex;
+    gap: 2em;
+}
+
+img{
+    width: 85%;
+}
+
+.imagem{
+    padding: 0;
+}
+
+#condido{
+    visibility: hidden;
+}
+
+button{
+    background-image: linear-gradient(to left,rgb(23, 35, 86), #1F0F37, rgb(23, 35, 86));
+    border: 2px solid rgba(114, 159, 244, 0.482);
+    border-radius: .8em;
+    padding: 8px;
+    margin-bottom: 10px;
+    color: rgb(118, 153, 218);
+    font-weight: bold;
+
+}
+
+
+
+
+p{
+    margin: 5px .5em;
+    font-size: 1.15em;
+}
+
+.pp{
+    color: rgba(177, 194, 255, 0.132);
+}
+
+button{
+    font-size: 1em;
+}
+
+h1{
+    border: 3px solid rgba(218, 210, 218, 0.43);
+    border-radius: .2em;
+    padding: 5px 0;
+    font-size: 2.3em;
+}
+
+h2{
+    margin: 0;
+    font-size: 1.6em;
+}
+
+h3{
+    font-weight: light;
+}
+
+h4{
+    margin: 0;
+    font-size: 3em;
+}
